@@ -1,0 +1,130 @@
+.about-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 1rem;
+    margin-top: 6rem;
+    margin-bottom: 10rem;
+    text-align: center;
+    gap: 4rem;
+}
+
+.about-page > div h2, .about-one h2, .about-one h3{
+    color: black;
+}
+
+.about-p {
+    font-weight: 200;
+}
+
+.about-side {
+    background-color: rgba(245, 222, 179, 0.151);
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15rem;
+}
+
+.about-one {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 0 1.2em;
+}
+
+.about-subsection {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10rem;
+}
+
+.about-onehr {
+    border: 6px solid red;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 29rem;
+}
+
+.about-percent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-twohr {
+    border: 6px solid red;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 26rem;
+    margin-right: 3rem;
+}
+
+.about-threehr {
+    border: 6px solid red;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 23rem;
+    margin-right: 6rem;
+}
+
+.about-fourhr {
+    border: 6px solid red;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 24rem;
+    margin-right: 5rem;
+}
+
+.about-fivehr {
+    border: 6px solid red;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 17rem;
+    margin-right: 12rem;
+}
+
+.Our-teamImgs{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;    
+    justify-content: space-around;
+    margin-bottom: 10rem;
+    gap: 1rem;
+}
+
+.Our-teamImgs img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.Our-teamImgs h2, h4{
+    text-align: center;
+    color: black;
+}
+
+.Our-teamImgs h4{
+    text-align: center;
+    font-weight: 300;
+}
+
+.About-icons {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+}

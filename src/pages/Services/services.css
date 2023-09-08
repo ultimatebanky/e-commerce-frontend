@@ -1,0 +1,20 @@
+.service-details img {
+    width: 300px;
+}
+.service {
+    margin-top: 8rem;
+    text-align: center;
+}
+
+.service-details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.flex {
+    border: 2px solid;
+    flex-grow: 1;
+}

@@ -1,0 +1,28 @@
+.rate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 7rem;
+}
+
+.rate-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+.rate-form > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8em;
+}
+
+.rate-form > div label {
+    font-size: 15px;
+} 
+
+.rate-form > div input, .rate-form > div select {
+    padding: .4em;
+}

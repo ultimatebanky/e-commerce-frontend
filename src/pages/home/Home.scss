@@ -1,0 +1,57 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  min-height: 100vh;
+  background-image: url('https://images.pexels.com/photos/53602/airplane-plane-transportation-landing-53602.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: #31313e;
+  padding: 2rem 4rem;
+  // margin-top: 7rem;
+}
+
+.hero-text {
+  width: 50%;
+  & > * {
+    color: #ffffff;
+    margin-bottom: 2rem;
+  }
+  & > h2 span {
+    display: block;
+  }
+  & .hero-buttons a {
+    color: #fff;
+  }
+  & > .--flex-start {
+    font-size: clamp(10px, 48vw, 15px);
+    gap: 1.2rem;
+    color: rgba(150, 147, 14, 0.955);
+    flex-wrap: wrap;
+  }
+}
+.hero-image {
+  width: 50%;
+  text-align: center;
+}
+.hero-image img {
+  width: 80%;
+}
+@media screen and (max-width: 992px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+}

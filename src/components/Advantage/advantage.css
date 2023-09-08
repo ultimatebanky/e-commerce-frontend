@@ -1,0 +1,26 @@
+.adv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    text-align: center;
+}
+
+.adv h1 {
+    margin-bottom: 2rem;
+}
+
+.adv h5 {
+    font-size: 12px;
+}
+
+.ads-icons {
+    display: flex;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2.2em;
+    flex-basis: 120px;
+}
