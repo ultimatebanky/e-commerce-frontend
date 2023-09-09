@@ -28,7 +28,7 @@ const Team = () => {
                 <strong>Join Team of Professionals - Become a Part of TransLogic</strong>
             </h2>
             <h3>
-                We cherish active specialists willing to work on our company. If you are enthusiastic about transportation and ready to make impactful <br/> decisions, feel free to send us your CV. We are interested in hiring professionals for a long term.
+                We cherish active specialists willing to work on our company. If you are enthusiastic about transportation and ready to make impactful decisions, feel free to send us your CV. We are interested in hiring professionals for a long term.
             </h3>
         </div>
 
