@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BACKEND_URL = proccess.env.REACT_APP_BACKEND_URL;
+const BACKEND_URL = 'https://e-commerce-backend-e4p8.onrender.com';
 export const API_URL = `${BACKEND_URL}/api/orders/`;
 
 //   create order
