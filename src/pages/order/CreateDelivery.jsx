@@ -8,16 +8,16 @@ import { RESET, createOrder } from '../../redux/features/auth/orderSlice';
 import { toast } from 'react-toastify';
 
 const initialState = {
-    firstName: '',
-     lastName: '',
-     email: '',
-     pickup_add: '',
-     destination: '',
-     phone: '',
-     weight: '',
-     description: '',
-     service_type: '',
-     additional_info: ''
+  firstName: '',
+  lastName: '',
+  email: '',
+  pickup_add: '',
+  destination: '',
+  phone: '',
+  weight: '',
+  description: '',
+  service_type: '',
+  additional_info: ''
 
 };
 
@@ -26,7 +26,18 @@ const CreateDelivery = () => {
 
   const [formData, setFormData] = useState(initialState);
   
-  const { firstName, lastName, email, pickup_add, destination, phone, weight, description, service_type, additional_info } = formData;
+  const { 
+    firstName, 
+    lastName, 
+    email, 
+    pickup_add, 
+    destination, 
+    phone, 
+    weight, 
+    description, 
+    service_type, 
+    additional_info 
+  } = formData;
 
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -41,31 +52,31 @@ const CreateDelivery = () => {
   const ordercreation = async (e) => {
     e.preventDefault();
 
-    if (!firstName ||
-      !lastName ||
-      !email ||
-      !pickup_add ||
-      !destination ||
-      !phone ||
-      !weight ||
-      !description ||
-      !service_type ||
+    if (firstName || 
+      !lastName || 
+      !email || 
+      !pickup_add || 
+      !destination || 
+      !phone || 
+      !weight || 
+      !description || 
+      !service_type || 
       !additional_info
      ) {
     return toast.error('All fields are required');
   }
   
     const orderData = {
-        firstName,
-         lastName,
-         email,
-         pickup_add,
-         destination,
-         phone,
-         weight,
-         description,
-         service_type,
-         additional_info
+      firstName, 
+      lastName, 
+      email, 
+      pickup_add, 
+      destination, 
+      phone, 
+      weight, 
+      description, 
+      service_type, 
+      additional_info
     };
     
     
