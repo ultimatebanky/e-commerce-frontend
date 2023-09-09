@@ -22,7 +22,7 @@ const filterSlice = createSlice({
       const { orders, search } = action.payload;
       const tempOrders = orders.filter(
         (order) =>
-          order.type.toLowerCase().includes(search.toLowerCase())
+          order.email.toLowerCase().includes(search.toLowerCase())
       );
       state.filteredOrders = tempOrders;
     },
