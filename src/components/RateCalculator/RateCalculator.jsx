@@ -4,7 +4,7 @@ import './RateCalculator.css'
 const RateCalculator = () => {
     const [weight, setWeight] = useState(0);
     const [conversionRates, setConversionRates] = useState({});
-    const [targetCurrency, setTargetCurrency] = useState('USD');
+    const [targetCurrency, setTargetCurrency] = useState('NGN');
     const [convertedAmount, setConvertedAmount] = useState(0);
     
     useEffect(() => {

@@ -155,7 +155,9 @@ export const verifyUser = createAsyncThunk(
 );
 
 // Get User
-export const getUser = createAsyncThunk("auth/getUser", async (_, thunkAPI) => {
+export const getUser = createAsyncThunk(
+  "auth/getUser", 
+  async (_, thunkAPI) => {
   try {
     return await authService.getUser();
   } catch (error) {
@@ -468,6 +470,7 @@ const authSlice = createSlice({
         state.isLoading = false;
         state.isSuccess = true;
         state.user = action.payload;
+        toast.success("success")
       })
       .addCase(getUser.rejected, (state, action) => {
         state.isLoading = false;

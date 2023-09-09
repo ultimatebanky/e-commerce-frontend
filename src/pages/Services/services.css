@@ -13,8 +13,3 @@
     justify-content: center;
     gap: 4rem;
 }
-
-.flex {
-    border: 2px solid;
-    flex-grow: 1;
-}

@@ -59,7 +59,7 @@ const UserList = () => {
     <section className='top'>
         <div className='container'>
             <PageMenu/>
-            <UserStats/>
+            {/* <UserStats/> */}
 
             <div className='user-list'>
                 <div className='table'>

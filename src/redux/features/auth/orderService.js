@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const BACKEND_URL = 'https://e-commerce-backend-l4wt.onrender.com';
-export const API_URL = `${BACKEND_URL}/api/order/`;
+const BACKEND_URL = 'http://localhost:5000';
+export const API_URL = `${BACKEND_URL}/api/orders/`;
 
 //   create order
 const createOrder = async (orderData) => {

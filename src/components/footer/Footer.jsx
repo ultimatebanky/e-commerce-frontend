@@ -12,6 +12,7 @@ const Footer = () => {
           <div>
             <h4>Contact Information</h4>
             <address>Computer Village Ikeja, Lagos State.</address>
+            <p>info@remight.com</p>
             <p>+234 7036323097</p>
             <span><AiOutlineTwitter/></span>
           </div>

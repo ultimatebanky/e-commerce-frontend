@@ -6,6 +6,19 @@
     margin-bottom: 10rem;
     text-align: center;
     gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.about-main h1 {
+    color: aliceblue;
+    text-align: center;
+    padding: 15rem ;
+    background-image: url('https://images.pexels.com/photos/912050/pexels-photo-912050.jpeg?auto=compress&cs=tinysrgb&w=800');
+    background-color: #4b4b51;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 
 .about-page > div h2, .about-one h2, .about-one h3{
@@ -21,6 +34,7 @@
     display: flex;
     justify-content: space-around;
     margin-bottom: 15rem;
+    flex-wrap: wrap;
 }
 
 .about-one {
@@ -29,11 +43,6 @@
     padding: 0 1.2em;
 }
 
-.about-subsection {
-    display: flex;
-    justify-content: space-around;
-    margin-right: 10rem;
-}
 
 .about-onehr {
     border: 6px solid red;

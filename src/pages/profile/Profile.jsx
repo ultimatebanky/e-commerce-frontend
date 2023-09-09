@@ -34,7 +34,7 @@ const Profile = () => {
     name: user?.name,
     email: user?.email,
     phone: user?.phone,
-    bio: user?.bio,
+    // bio: user?.bio,
     photo: user?.photo,
     role: user?.role,
     isVerified: user?.isVerified,
@@ -73,7 +73,7 @@ const Profile = () => {
 
         // Save the image to Cloudinary
         const response = await fetch(
-          "https://api.cloudinary.com/v1_1/zinotrust/image/upload",
+          "https://api.cloudinary.com/v1_1/dlrbjdrsr/image/upload",
           { method: "post", body: image }
         );
         const imgData = await response.json();
@@ -106,7 +106,7 @@ const Profile = () => {
         name: user.name,
         email: user.email,
         phone: user.phone,
-        bio: user.bio,
+        // bio: user.bio,
         photo: user.photo,
         role: user.role,
         isVerified: user.isVerified,

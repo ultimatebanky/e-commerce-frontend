@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BACKEND_URL = 'https://e-commerce-backend-l4wt.onrender.com';
+const BACKEND_URL = 'http://localhost:5000';
 export const API_URL = `${BACKEND_URL}/api/users/`;
 
 export const validateEmail = (email) => {
