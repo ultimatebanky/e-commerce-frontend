@@ -83,10 +83,10 @@ const OrderList = () => {
                             <table>
                                 <thead>
                                     <tr>
-                                        <th>s/n</th>
+                                        <th>S/N</th>
                                         <th>Name</th>
-                                        <th>Status</th>
-                                        <th>Amount</th>
+                                        <th>Email</th>
+                                        <th>Destination</th>
                                         <th>Change Status</th>
                                         <th>Action</th>
 
@@ -95,13 +95,13 @@ const OrderList = () => {
 
                                 <tbody>
                                    {filteredOrders?.map((order, index) => {
-                                    const {_id, type, email, status, amount} = order;
+                                    const {_id, firstName, email, status, destination} = order;
                                     return(
                                         <tr key={_id}>
                                                 <td>{index + 1}</td>
-                                                <td>{type}</td>
-                                                <td>{status}</td>
-                                                <td>{amount}</td>
+                                                <td>{firstName}</td>
+                                                <td>{email}</td>
+                                                <td>{destination}</td>
                                                 <td>
                                                     <span>
                                                         <ChangeStatus _id={_id} status={status}/>
@@ -113,10 +113,6 @@ const OrderList = () => {
                                                         <FaTrashAlt size={28} color='red' onClick= {() => confirmDelete(_id)}/> 
                                                     </span>
                                                     
-                                                    <span>
-                                                        <Link to='/pay'
-                                                        >&nbsp;| <FaMoneyCheck size={28} color='green' onClick={() => handleMoneyCheckClick(order)}/></Link>        
-                                                    </span>
                                                 </td>
                                         </tr>
                                     )
