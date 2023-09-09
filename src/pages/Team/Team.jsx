@@ -1,6 +1,4 @@
 import './team.css'
-import { AiOutlineTwitter, AiOutlineGooglePlus, AiOutlineInstagram } from "react-icons/ai"
-import { TiSocialLinkedin } from "react-icons/ti"
 import banky from '../../assets/banky.jpg'
 import rokeebah from '../../assets/rokeebah.jpg'
 import alfa from '../../assets/alfa.jpg'
@@ -41,45 +39,21 @@ const Team = () => {
                         <img src={banky}/>
                         <h2>Remight Bankole</h2>
                         <h4>CEO. Founder</h4>
-                        {/* <div className='About-icons'>
-                            <AiOutlineTwitter size={25}/>
-                            <AiOutlineGooglePlus size={25}/>
-                            <TiSocialLinkedin size={25}/>
-                            <AiOutlineInstagram size={25}/>
-                        </div> */}
                     </div>
                     <div>
                     <img src={rokeebah}/>
                         <h2>Olajide Rokeebah</h2>
                         <h4>Logistics Coodinator</h4>
-                        {/* <div className='About-icons'>
-                            <AiOutlineTwitter size={25}/>
-                            <AiOutlineInstagram size={25}/>
-                            <AiOutlineGooglePlus size={25}/>
-                            <TiSocialLinkedin size={25}/>
-                        </div> */}
                     </div>
                     <div>
                     <img src={bayo}/>
                         <h2>Adebayo Ademola</h2>
                         <h4>Operation Manager</h4>
-                        {/* <div className='About-icons'>
-                            <TiSocialLinkedin size={25}/>
-                            <AiOutlineGooglePlus size={25}/>
-                            <AiOutlineTwitter size={25}/>
-                            <AiOutlineInstagram size={25}/>
-                        </div> */}
                     </div>
                     <div>
                     <img src={alfa}/>
                         <h2>AbdulMumin Sodiq</h2>
                         <h4>Technology. Officer</h4>
-                        {/* <div className='About-icons'>
-                            <AiOutlineGooglePlus size={25}/>
-                            <AiOutlineTwitter size={25}/>
-                            <AiOutlineInstagram size={25}/>
-                            <TiSocialLinkedin size={25}/>
-                        </div> */}
                     </div>
                 </div>
             </div>
