@@ -14,6 +14,7 @@ import ChangePassword from "./pages/changePassword/ChangePassword";
 import Home from "./pages/home/Home";
 import Profile from "./pages/profile/Profile";
 import UserList from "./pages/userList/UserList";
+import Contact from "./components/Contact/Contact";
 import {
   getLoginStatus,
   getUser,
@@ -49,7 +50,7 @@ function App() {
         {/* <GoogleOAuthProvider clientId={process.env.REACT_APP_GOOGLE_CLIENT_ID}></GoogleOAuthProvider> */}
           <Routes>
             <Route
-              path="/"
+              path="/home"
               element={
                 <Layout>
                   <Home />
@@ -130,6 +131,14 @@ function App() {
               element={
                 <Layout>
                   <OrderList />
+                </Layout>
+              }
+            />
+            <Route
+              path="/contact"
+              element={
+                <Layout>
+                  <Contact />
                 </Layout>
               }
             />

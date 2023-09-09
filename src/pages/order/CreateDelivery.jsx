@@ -41,19 +41,20 @@ const CreateDelivery = () => {
   const ordercreation = async (e) => {
     e.preventDefault();
 
-    if (firstName ||
-         !lastName ||
-         !email ||
-         !pickup_add ||
-         !destination ||
-         !phone ||
-         !weight ||
-         !description ||
-         !service_type ||
-         !additional_info
-        ) {
-      return toast.error('All fields are required');
-    }
+    if (!firstName ||
+      !lastName ||
+      !email ||
+      !pickup_add ||
+      !destination ||
+      !phone ||
+      !weight ||
+      !description ||
+      !service_type ||
+      !additional_info
+     ) {
+    return toast.error('All fields are required');
+  }
+  
     const orderData = {
         firstName,
          lastName,
@@ -107,7 +108,7 @@ const CreateDelivery = () => {
 
                   <p>
                     <label>Email:</label>
-                    <input type='text' name='sellerEmail' value={email} onChange={handleInputChange} placeholder='yourname@gmail.com' />
+                    <input type='text' name='email' value={email} onChange={handleInputChange} placeholder='yourname@gmail.com' />
                   </p>
 
                   <p>
@@ -120,7 +121,7 @@ const CreateDelivery = () => {
                   </p>
                   <p>
                     <label>Weight:</label>
-                    <input type='text' name='weight' value={weight} onChange={handleInputChange}/>
+                    <input type='text' name='weight' value={weight} onChange={handleInputChange} placeholder='weight in kg'/>
                   </p>
                   <p>
                     <label>Pickup Address:</label>
