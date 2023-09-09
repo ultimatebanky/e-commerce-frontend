@@ -36,13 +36,14 @@
     align-items: center;
     gap: 2rem;
 
-    & a p {
+    & a p, p {
       color: #fff;
     }
 
-    a p:hover{
+    a p:hover, p:hover{
       transform: translateY(-2px);
       transition-duration: 500ms;
+      cursor: pointer;
     } 
 
     
