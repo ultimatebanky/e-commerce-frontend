@@ -15,6 +15,9 @@ const Header = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
+  const goHome = () => {
+    navigate("/");
+  };
 
   const logoutUser = () => {
     dispatch(RESET());
@@ -30,12 +33,12 @@ const Header = () => {
   return (
     <header className="header">
       <nav>
-        <div className="logo">
+        <div className="logo" onClick={goHome}>
             <img src={remight} width='75px'/>
         </div>
 
         <div className="navLinks">
-          <NavLink exact activeClassName="active" to='/home'><p>Home</p></NavLink>
+          <NavLink exact activeClassName="active" onClick={goHome}><p>Home</p></NavLink>
           <NavLink exact activeClassName="active" to='/about'><p>About</p></NavLink>
           <NavLink exact activeClassName="active" to='/services'><p>Services</p></NavLink>
           <NavLink exact activeClassName="active" to='/team'><p>Our Team</p></NavLink>
