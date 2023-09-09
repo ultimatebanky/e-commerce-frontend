@@ -38,7 +38,7 @@ const Header = () => {
         </div>
 
         <div className="navLinks">
-          <NavLink exact activeClassName="active" onClick={goHome}><p>Home</p></NavLink>
+          <p activeClassName="active" onClick={goHome}>Home</p>
           <NavLink exact activeClassName="active" to='/about'><p>About</p></NavLink>
           <NavLink exact activeClassName="active" to='/services'><p>Services</p></NavLink>
           <NavLink exact activeClassName="active" to='/team'><p>Our Team</p></NavLink>
