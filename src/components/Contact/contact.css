@@ -1,13 +1,6 @@
-/* Google Font CDN Link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins" , sans-serif;
-}
 
-.container{
+.container__1{
   margin-top: 14rem;
   width: 85%;
   background: #fff;
@@ -15,12 +8,12 @@
   padding: 20px 60px 30px 40px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
-.container .content{
+.container__1 .content{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.container .content .left-side{
+.container__1 .content .left-side{
   width: 25%;
   height: 100%;
   display: flex;
@@ -58,7 +51,7 @@
   font-size: 14px;
   color: #afafb6;
 }
-.container .content .right-side{
+.container__1 .content .right-side{
   width: 75%;
   margin-left: 75px;
 }
@@ -110,34 +103,34 @@
 }
 
 @media (max-width: 950px) {
-  .container{
+  .container__1{
     width: 90%;
     padding: 30px 40px 40px 35px ;
   }
-  .container .content .right-side{
+  .container__1 .content .right-side{
    width: 75%;
    margin-left: 55px;
 }
 }
 @media (max-width: 820px) {
-  .container{
+  .container__1{
     margin: 40px 0;
     height: 100%;
   }
-  .container .content{
+  .container__1 .content{
     flex-direction: column-reverse;
   }
- .container .content .left-side{
+ .container__1 .content .left-side{
    width: 100%;
    flex-direction: row;
    margin-top: 40px;
    justify-content: center;
    flex-wrap: wrap;
  }
- .container .content .left-side::before{
+ .container__1 .content .left-side::before{
    display: none;
  }
- .container .content .right-side{
+ .container__1 .content .right-side{
    width: 100%;
    margin-left: 0;
  }

@@ -1,4 +1,5 @@
 import React from 'react'
+import Advantage from '../../components/Advantage/Advantage'
 import "./services.css"
 
 
@@ -15,8 +16,8 @@ const Services = () => {
   return (
     <>
         <div className='service push'>
-            <h1>Our Services.</h1>
-
+            <h1 className='h1'>Our Services.</h1>
+            <Advantage/>
             <div className='service-details'>
               {list.map(({index, content, info, detail}) => (
                   <div key={index} className='flex'>

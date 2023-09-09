@@ -13,21 +13,17 @@ const Team = () => {
             
                 <div className='aero-section team-section'>
                     <div className='aero-first team'>
-                        <h2>REMIGHT_LOGISTICS</h2>
-                        <h1>Reliable Freight and <br/>Transportation Services</h1>
-                        <h3>Logistics Solution For Your Successful Business</h3>
+                        <h2>REMIGHT_LOGISTICS.</h2>
+                        <h1>Reliable Freight and <br/>Transportation Services.</h1>
+                        <h3>Logistics Solution For Your Successful Business.</h3>
                     </div>
                 </div>
             </div>    
         </div>
 
         <div className='team-two'>
-            <h2>
-                <strong>Join Team of Professionals - Become a Part of TransLogic</strong>
-            </h2>
             <h3>
-                We cherish active specialists willing to work on our company. If you are enthusiastic about transportation and ready to make impactful decisions, feel free to send us your CV. We are interested in hiring professionals for a long term.
-            </h3>
+            We provide first class service tailored to your shipping needs by cultivating a supreme effort to achieve and deliver world class logistics knowing that the freight forwarding and shipping sector is a fast rising sector.</h3>
         </div>
 
         <div>
@@ -37,8 +33,8 @@ const Team = () => {
                 <div className='Our-teamImgs'>
                     <div>
                         <img src={banky}/>
-                        <h2>Remight Bankole</h2>
-                        <h4>CEO. Founder</h4>
+                        <h2>Bankole Remilekun</h2>
+                        <h4>CEO.</h4>
                     </div>
                     <div>
                     <img src={rokeebah}/>

@@ -10,9 +10,10 @@ const Footer = () => {
       <footer className="footer container">
         <div className="contact">
           <div>
-            <h4>Contact Information</h4>
-            <address>Computer Village Ikeja, Lagos State.</address>
+            <p><b>Head Office:</b> 10008 Bissonet Street, Houston Texas</p>
+            <p><b>Branch Office:</b> 17, Akinremi Street, Ikeja, Lagos</p>
             <p>info@remight.com</p>
+            <p>devremight95.com</p>
             <p>+234 7036323097</p>
             <span><AiOutlineTwitter/></span>
           </div>
@@ -22,7 +23,7 @@ const Footer = () => {
             <Link to='/about'>About</Link>
             <Link to='/services'>Services</Link>
             <Link to='/team'>Our Team</Link>
-            <Link to='/createOrder'>Requst for Quote</Link>
+            <Link to='/createOrder'>Request for Quote</Link>
           </div>
         </div>
         <hr className="--color-dark" />

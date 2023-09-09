@@ -13,3 +13,14 @@
     justify-content: center;
     gap: 4rem;
 }
+
+.service .h1 {
+    padding: 20rem 0;
+    background-image: url('https://images.pexels.com/photos/358220/pexels-photo-358220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(41, 69, 93);
+    background-blend-mode: multiply;
+    color: white;
+}
