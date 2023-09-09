@@ -52,19 +52,19 @@ const CreateDelivery = () => {
   const ordercreation = async (e) => {
     e.preventDefault();
 
-    if (firstName || 
-      !lastName || 
-      !email || 
-      !pickup_add || 
-      !destination || 
-      !phone || 
-      !weight || 
-      !description || 
-      !service_type || 
-      !additional_info
-     ) {
-    return toast.error('All fields are required');
-  }
+  //   if (firstName || 
+  //     !lastName || 
+  //     !email || 
+  //     !pickup_add || 
+  //     !destination || 
+  //     !phone || 
+  //     !weight || 
+  //     !description || 
+  //     !service_type || 
+  //     !additional_info
+  //    ) {
+  //   return toast.error('All fields are required');
+  // }
   
     const orderData = {
       firstName, 
