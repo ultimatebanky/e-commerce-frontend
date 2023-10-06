@@ -15,6 +15,7 @@ import Home from "./pages/home/Home";
 import Profile from "./pages/profile/Profile";
 import UserList from "./pages/userList/UserList";
 import Contact from "./components/Contact/Contact";
+import Shipping from "./pages/Shipping/Shipping";
 import {
   getLoginStatus,
   getUser,
@@ -139,6 +140,14 @@ function App() {
               element={
                 <Layout>
                   <Contact />
+                </Layout>
+              }
+            />
+            <Route
+              path="/shipping"
+              element={
+                <Layout>
+                  <Shipping />
                 </Layout>
               }
             />

@@ -13,7 +13,7 @@ const Home = () => {
       <section className=" hero">
         <div className="hero-text">
           <h2>Welcome to Remight logistics.</h2>
-          <p>Your premier partner in logistics and supply chain management. With a legacy of reliability and a commitment to excellence, we empower businesses of all sizes to streamline their operations, reduce costs, and deliver goods efficiently to customers worldwide.</p>
+          <p>Your premier partner in logistics and supply chain management. With a legacy of reliability and a commitment to excellence, we empower businesses of all sizes to streamline their operations, reduce costs and deliver goods efficiently to customers worldwide.</p>
           
           <div className="hero-buttons --flex-start">
             <button className="--btn --btn-secondary">

@@ -43,6 +43,7 @@ const Header = () => {
           <NavLink exact activeClassName="active" to='/services'><p>Services</p></NavLink>
           <NavLink exact activeClassName="active" to='/team'><p>Our Team</p></NavLink>
           <NavLink exact activeClassName="active" to='/contact'><p>Contact</p></NavLink>
+          {/* <NavLink exact activeClassName="active" to='/shipping'><p>Tracking/Shipment</p></NavLink> */}
         </div>
 
         <ul className="home-links">

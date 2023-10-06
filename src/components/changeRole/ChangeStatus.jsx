@@ -33,8 +33,10 @@ const ChangeStatus = ({_id}) => {
         >
             <select value={status} onChange={(e) => setStatus(e.target.value)}>
                 <option value=''>-- select --</option>
-                <option value='processed'>Processed</option>
-                <option value='Under Processing'>Under Processing</option>
+                <option value='order placed'>Order Placed</option>
+                <option value='confirmed'>Confirmed</option>
+                <option value='in transit'>In Transit</option>
+                <option value='delivered'>Delivered</option>
             </select>
             <button className='--btn --btn-primary'>
                 <FaCheck size={15} />

@@ -51,10 +51,6 @@ const OrderList = () => {
         dispatch(FILTER_ORDERS({orders, search}))
       }, [dispatch, orders, search])
 
-      const handleMoneyCheckClick = (orderData) => {
-        console.log('Order Data:', orderData);
-      };
-
 
   return (
     <section className='top'>
