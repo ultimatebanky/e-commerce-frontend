@@ -81,7 +81,7 @@ const OrderList = () => {
                                     <tr>
                                         <th>S/N</th>
                                         <th>Name</th>
-                                        <th>Email</th>
+                                        <th>Status</th>
                                         <th>Destination</th>
                                         <th>Change Status</th>
                                         <th>Action</th>
@@ -91,12 +91,12 @@ const OrderList = () => {
 
                                 <tbody>
                                    {filteredOrders?.map((order, index) => {
-                                    const {_id, firstName, email, status, destination} = order;
+                                    const {_id, firstName, status, destination} = order;
                                     return(
                                         <tr key={_id}>
                                                 <td>{index + 1}</td>
                                                 <td>{firstName}</td>
-                                                <td>{email}</td>
+                                                <td>{status}</td>
                                                 <td>{destination}</td>
                                                 <td>
                                                     <span>

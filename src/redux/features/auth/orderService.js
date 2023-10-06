@@ -32,7 +32,7 @@ const deleteOrder = async (id) => {
 
 // Upgrade Order
 const upgradeOrder = async (orderData) => {
-  const response = await axios.post(API_URL + "upgradeOrder", orderData);
+  const response = await axios.post(API_URL + "upgrade", orderData);
 
   return response.data.message;
 };

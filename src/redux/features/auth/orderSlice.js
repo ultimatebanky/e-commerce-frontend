@@ -86,7 +86,7 @@ export const deleteOrder = createAsyncThunk(
 
 // upgradeOrder
 export const upgradeOrder = createAsyncThunk(
-  "order/upgradeOrder",
+  "order/upgrade",
   async (orderData, thunkAPI) => {
     try {
       return await orderService.upgradeOrder(orderData);
