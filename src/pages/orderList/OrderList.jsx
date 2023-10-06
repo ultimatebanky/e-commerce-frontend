@@ -90,11 +90,11 @@ const OrderList = () => {
 
                                 <tbody>
                                    {filteredOrders?.map((order, index) => {
-                                    const {_id, description, status, destination} = order;
+                                    const {_id, additional_info, status, destination} = order;
                                     return(
                                         <tr key={_id}>
                                                 <td>{index + 1}</td>
-                                                <td>{shortenText(description, 8)}</td>
+                                                <td>{shortenText(additional_info, 8)}</td>
                                                 <td>{status}</td>
                                                 <td>{destination}</td>
                                                 <td>
