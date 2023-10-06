@@ -148,7 +148,7 @@ const CreateDelivery = () => {
                   </p>
                   <p>
                     <label>Additional Information</label>
-                    <textarea  name='additional_info' value={additional_info} onChange={handleInputChange} rows='6' placeholder='additional information'/>
+                    <textarea  name='additional_info' value={additional_info} onChange={handleInputChange} rows='6' placeholder='details of the order'/>
                   </p>
 
 

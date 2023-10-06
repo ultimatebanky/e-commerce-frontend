@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import PageMenu from '../../components/pageMenu/PageMenu'
-import { FaMoneyCheck, FaTrashAlt } from 'react-icons/fa'
+import { FaTrashAlt } from 'react-icons/fa'
 import { useDispatch } from 'react-redux'
 import "react-confirm-alert/src/react-confirm-alert.css";
 import { confirmAlert } from 'react-confirm-alert'
 import { deleteOrder, getOrders } from '../../redux/features/auth/orderSlice'
 import { useSelector } from 'react-redux'
-import { Link } from 'react-router-dom'
 import { FILTER_ORDERS, selectOrders } from '../../redux/features/auth/filterSlice'
-import SearchOrder from '../../components/search/SearchOrder'
 import ChangeStatus from '../../components/changeRole/ChangeStatus'
+import { shortenText } from '../profile/Profile';
 
 
 const OrderList = () => {
@@ -91,11 +90,11 @@ const OrderList = () => {
 
                                 <tbody>
                                    {filteredOrders?.map((order, index) => {
-                                    const {_id, firstName, status, destination} = order;
+                                    const {_id, description, status, destination} = order;
                                     return(
                                         <tr key={_id}>
                                                 <td>{index + 1}</td>
-                                                <td>{firstName}</td>
+                                                <td>{shortenText(description, 8)}</td>
                                                 <td>{status}</td>
                                                 <td>{destination}</td>
                                                 <td>
